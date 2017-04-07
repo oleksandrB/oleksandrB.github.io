@@ -4,27 +4,23 @@
 }
 .wrapper1 {
   position: relative;
-  width: 1050px; 
+  padding: 50px 50px;
+  width: 950px; 
   margin: 0px auto;
   background-color: #fff;
+  font-family: sans-serif;
   border-right: 1px solid #dbdbdb;
   border-left: 1px solid #dbdbdb;
 }
 html, body, .wrapper1{
 	height: 100%;
 }
-.wrapper2 {
-  position: relative;
-  width: 950px; 
-  margin: 0px auto;
-  font-family: sans-serif;
-  height: 100%;
-  background-color: #fff;
-}
 /*HEADER*/
 .logo {
-	padding-top: 50px;
-}
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+}	
 .header_menu {
 	background-color: #47484a;
 	height: 40px;
@@ -33,66 +29,89 @@ html, body, .wrapper1{
 	border-collapse: collapse;
 	margin-top: 40px;
 }
-.inline_header  {
+.header_menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.header_menu li {
 	display: inline-block;
 	width: 120px;
-	padding-top: 10px;
+	line-height: 40px;
 	text-align: center;
 }
-.glavnaya {
-	padding-right: 20px;
-}
-.tovary {
-	border-left: 2px solid #838383;
-	border-right: 2px solid #838383;
-	background-color: #353535;
-	height: 30px;
+.header_menu li:hover {
+	background: #353535;
+	color: #fff;
+	cursor: pointer;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 }
 /*CONTENT*/
 .sidebar {
     border: 1px solid #c8c8c8;
     border-bottom: none;
-	height: 240px;
+	height: 40px;
 	width: 240px;
 	display: table-cell;
 	margin-top: 0px;
 }
-.a {
+.sidebar a {
+	text-decoration: none;
+	color: #656363;
+}
+.sidebar li {
 	border-bottom: 1px solid #c8c8c8;
-	height: 40px;
 	padding-left: 22px;
 	line-height: 40px;	
 }
-.b {
-	padding-left: 34px;
+.sidebar li:hover {
+	background-color: #f9f9f9;
+	color: #474747;
+	cursor: pointer;
+	padding-left: 37px;
+	width: 203px;
 	height: 40px;
-	background: #f9f9f9;
-	border-bottom: 1px solid #c8c8c8;
-    line-height: 40px; 
 }
-.inline_content div{
+.inline_content div {
     display: inline-block;
     margin-top: 40px;
     vertical-align: top;
 }
-.img {
+img {
 	margin-left: 25px;
 }
+.text {
+	font-size: 13.33px;
+	width: 620px;
+	margin-left: 300px;
+	margin-top: 30px;
+	line-height: 20px;
+	color: #2c2c2c;
+}
 /*FOOTER*/
+.footer {
+	margin-bottom: 60px;
+}
 .list {
 	width: 757px;
 }
-.footer div{
+.footer .end {
 	display: inline-block;
 	background-color: #e1e1e1; 
 	height: 40px;
 	margin-top: 60px;
-	margin-bottom: 60px;
 }
-.list_line {
+.list a {
+	text-decoration: none;
+	color: #2c2c2c;
+}
+.list li {
 	display: inline-block;
 	line-height: 40px;
 	padding-left: 20px;
+}
+.list li:hover {
+	text-decoration: underline;
 }
 .kontakty {
 	padding-right: 200px;
