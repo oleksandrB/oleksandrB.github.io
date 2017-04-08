@@ -84,8 +84,9 @@ img {
 }
 .text {
 	font-size: 13.33px;
-	width: 700px;
+	width: 675px;
 	margin-top: 30px;
+	margin-left: 25px;
 	line-height: 20px;
 }
 .text-img div {
