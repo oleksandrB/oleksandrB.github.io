@@ -38,6 +38,8 @@ html, body, .wrapper1{
 	width: 120px;
 	line-height: 40px;
 	text-align: center;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
 }
 .header_menu li:hover {
 	background: #353535;
@@ -47,9 +49,9 @@ html, body, .wrapper1{
 	border-right: 1px solid #838383;
 }
 /*CONTENT*/
-.sidebar {
-    border: 1px solid #c8c8c8;
-    border-bottom: none;
+.sidebar ul {
+	border: 1px solid #c8c8c8;
+	border-bottom: none;
 	height: 40px;
 	width: 240px;
 	display: table-cell;
@@ -82,11 +84,12 @@ img {
 }
 .text {
 	font-size: 13.33px;
-	width: 620px;
-	margin-left: 300px;
+	width: 700px;
 	margin-top: 30px;
 	line-height: 20px;
-	color: #2c2c2c;
+}
+.text-img div {
+	width: 700px;	
 }
 /*FOOTER*/
 .footer {
