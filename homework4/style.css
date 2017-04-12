@@ -46,6 +46,7 @@ img, .logo {
 	color: #128aa7;
 }
 .address {
+	width: 167px;
 	color: #128aa7;
 	padding-left: 780px;
   	margin-top: -130px;
@@ -55,17 +56,19 @@ h5 {
 	margin-bottom: 0px;
 }
 .contries_text, a {
-	font-size: 12px;
+	font-size: 10px;
 	color: #128aa7;
 }
 .contries_text, a:hover {
 	text-decoration: none;
 }
-.cs {
-	width: 42px;
-	height: 42px;
+ul, .contries {
+	display: inline-block;
 	text-align: center;
-	padding-top: -20px;
+}
+ul, .contries_list {
+	padding-left: 655px;
+	margin-top: 20px;
 }
 /*CONTENT*/
 img, .beach {
