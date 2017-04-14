@@ -62,7 +62,7 @@ h5 {
 .contries_text, a:hover {
 	text-decoration: none;
 }
-.contries {
+ul, .contries_list > li {
 	display: inline-block;
 	text-align: center;
 }
@@ -75,17 +75,66 @@ h5 {
 	padding: 0 0;
 }
 .content_menu {
-	background-color: silver;
-/*	background-image: linear-gradient(to top, #303030 #373737);*/
+	background-image: linear-gradient(to top, #303030, #373737);
 	border-bottom: 1px solid #000000;
 	width: 1000px;
 	height: 30px;
+	text-align: justify;
+	text-align-last: justify;
 }
-.option {
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.content_menu > li {
 	display: inline-block;
-	padding: 0 30px;
-	height: 30px;
+	position: relative;
 	line-height: 30px;
+}
+.content_menu > li > a {
+    display: block;
+    left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content_menu > li > a:hover {
+	color: #f9f9f9;
+}
+.content_submenu {
+	display: none;
+	position: absolute;
+    background-color: white;
+}
+.puteshestvia {
+	width: 150px;
+}
+.uslugi {
+	width: 110px;
+}
+.partneram {
+	width: 130px;
+}
+.content_submenu > li {
+	display: block;
+	line-height: 30px;
+}
+.content_submenu > li > a {
+	display: block;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.content_submenu > li > a:hover {
+	text-decoration: underline;
+}
+.content_menu > li:hover > .content_submenu {
+	display: block;
 }
 /*FOOTER*/
 footer {
